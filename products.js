@@ -1,6 +1,7 @@
 const products = [
   {
     id: 1,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The adidas Bayern Munich Home Shirt 2023 2024 has been made for the fans. Designed to replicate what the pros will be wearing on the pitch, the shirt has been crafted with AEROREADY technology to keep you comfortable and dry. ",
@@ -13,6 +14,7 @@ const products = [
     "XL",
     "2XL"
       ],
+     
       Colors:[
         "red"
         ],
@@ -25,6 +27,7 @@ const products = [
   },
   {
     id: 2,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The adidas Real Madrid Authentic Home Shirt 2023 2024 has been expertly engineered with HEAR.RDY technology to keep you cool by providing excellent air flow as you emulate your favourite players.",
@@ -40,6 +43,8 @@ const products = [
       Colors:[
         "white"
         ],
+        
+          
     imageLink: [
       "https://res.cloudinary.com/dsqjymyvr/image/upload/v1686448968/v79lrmszmudtidgub89i.webp",
       "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831085/dhhb5pjgh818lujmtby1.avif",
@@ -50,6 +55,7 @@ const products = [
   },
   {
     id: 3,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The Nike Barcelona Home Shirt 2023 2024 has been crafted in a regular fit and styling using Nike's moisture-wicking Dri-FIT technology to keep you cool and comfortable",
@@ -65,6 +71,7 @@ const products = [
       Colors:[
         "red"
         ],
+        
     imageLink: [
     "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831088/kdhmyxhrxzjhwzhf6i6t.avif",
     "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831085/j8jvtkrefsbimknzzgeq.avif",
@@ -75,6 +82,7 @@ const products = [
   {
     id: 4,
     productName: "T-shirt sports",
+    isTshirt: true,
     description:
       "The Nike Liverpool Home Shirt 2023 2024 has been engineered with Dri-FIT technology",
     price: 100,
@@ -98,6 +106,7 @@ const products = [
   },
     {
     id: 5,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The Nike Psg Home Shirt 2023 2024 has been engineered with Dri-FIT technology",
@@ -123,6 +132,7 @@ const products = [
     {
     id: 6,
     productName: "T-shirt sports",
+    isTshirt: true,
     description:
       "The adidas Manchester United Authentic Home Shirt 2023 2024 is exactly what the professional Red Devils will be wearing on the pitch. Featuring striped ribbed trims for comfort as you move",
     price: 110,
@@ -147,6 +157,7 @@ const products = [
       {
     id: 7,
     productName: "Shoes sports",
+    isTshirt: false,
     description:
       "The Nike Court Vision Mens Trainers are a great addition to your off duty wardrobe, crafted with a low profile ankle collar coupled with a lace fastening and a cushioned insole for a secure and comfortable fit.",
     price: 62,
@@ -171,6 +182,7 @@ const products = [
 
         {
     id: 8,
+    isTshirt: false,
     productName: "Shoes sports",
     description:
       "The Nike Court Borough Trainers are ideal for casual, everyday wear. The trainers combine a durable upper construction with chunky midsole that ensures support under the foot. The trainers feature Nike swoosh branding down the side of the trainers for a great design",
@@ -197,6 +209,7 @@ const products = [
           {
     id: 9,
     productName: "Shoes sports",
+    isTshirt: false,
     description:
       "The Nike Court Borough Trainers are ideal for casual, everyday wear. The trainers combine a durable upper construction with chunky midsole that ensures support under the foot. The trainers feature Nike swoosh branding down the side of the trainers for a great design",
     price: 42,
@@ -221,6 +234,7 @@ const products = [
   },
             {
     id: 10,
+    isTshirt: false,
     productName: "Shoes sports",
     description:
       "Style and comfort combine to make these Nike Court Borough Mid Top Junior Trainers which benefit from having a cushioned insole and padded ankle, whilst the textured sole is assisted by two pivot points to ensure great traction and mobility and the Nike Swoosh branding completes the iconic design.",
@@ -246,6 +260,7 @@ const products = [
   },
     {
     id: 11,
+    isTshirt: true,
     productName: "T-shirt",
     description:
       "Have your staples up to date, keeping your casual fits stylish and classic. This 3 Pack of basic T Shirts from DKNY have been designed in 3 different colour ways, ",
@@ -269,6 +284,7 @@ const products = [
     {
     id: 12,
     productName: "T-shirt",
+    isTshirt: true,
     description:
       "T-shirt  basic",
     price: 15,
@@ -289,6 +305,7 @@ const products = [
   },
     {
     id: 13,
+    isTshirt: true,
     productName: "T-shirt",
     description:
       "The Mens Under Armour ABC Camo Short Sleeve T Shirt is a great addition to your weekend wardrobe, featuring a lightweight fabrication coupled with a crew neck collar and short sleeves that offers all day comfort. ",
@@ -311,6 +328,7 @@ const products = [
   {
   id: 14,
     productName: "T-shirt",
+    isTshirt: true,
     description:
       "adidas Essentials Embroidered Linear Logo T-Shirt maleSometimes you just have to keep things simple. No fuss. Easy. Enter this adidas t-shirt. ",
     price: 16,
