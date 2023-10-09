@@ -41,7 +41,8 @@ const products = [
     "2XL"
       ],
       Colors:[
-        "white"
+        "white",
+        "black"
         ],
         
           
@@ -69,7 +70,8 @@ const products = [
     "2XL"
       ],
       Colors:[
-        "red"
+        "red",
+        "gold"
         ],
         
     imageLink: [
@@ -95,7 +97,8 @@ const products = [
     "2XL"
       ],
       Colors:[
-        "red"
+        "red",
+        "white"
         ],
     imageLink: [
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831628/c0uot0fqmdgdk60ij0mt.avif",
@@ -347,5 +350,93 @@ const products = [
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690961903/wyybwk8x0xcpdtimaq18.avif"
     ],
   },
+      {
+    id: 15,
+    productName: "T-shirt sports",
+    isTshirt: true,
+    description:
+      "The adidas Arsenal Home Shirt 2023 2024 will have you looking like one of the Gunners. Crafted from polyester with sweat wicking technology to keep you cool as you cheer on from the stands, the short sleeves and crew neckline add a classic touch",
+    price: 80,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/fqhixcpxixentvpfolme.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/kt86uvkivupxmzczdt0s.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/kt86uvkivupxmzczdt0s.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811050/a08u0jnhp0kvh1kmq6wp.avif",
+
+    ],
+  },
+        {
+    id: 16,
+    productName: "T-shirt sports",
+    isTshirt: true,
+    description:
+      "been created for the superfans. Exactly what the pros will be wearing on the pitch, the shirt has been developed with Dri-FIT ADV technology which combines moisture",
+    price: 124,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/tq3pppkdrceh5y19dh1s.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/cm21hrxiikogx8zi8amo.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/f4wsyhsnv4x7walbib7q.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/gbj1wrlcobq1dotzhf3g.avif",
+
+    ],
+  },  
+          {
+    id: 17,
+    productName: "Shoes",
+    isTshirt: false,
+    description: "These adidas Samba Suede Mens Trainers sport a textured toe bumper with a stitched heel panel and a comfortable fit with padding to the ankle collar",
+    price: 65,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812525/unjwahefxotd76zabn8y.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812526/gqhzhawwtdkbephwbqow.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812525/gw5zogq8c7rwi1tjjvoa.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812524/c97wnhuy88tnhbmb8pwn.avif",
+    ],
+  },  
+            {
+    id: 18,
+    productName: "Shoes",
+    isTshirt: false,
+    description: "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe",
+    price: 65,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812667/hyxzj2isqft51yfyostx.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812667/l7qfbkfp8ypbmupacpjj.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812667/g6m9ss4ts9wtyrmgpife.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812666/oxrzc8phxaealrip5hpq.avif"
+    ],
+  },  
 ];
 module.exports = products;
