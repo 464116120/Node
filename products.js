@@ -368,7 +368,7 @@ const products = [
     imageLink: [
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/fqhixcpxixentvpfolme.avif",
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/kt86uvkivupxmzczdt0s.avif",
-"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/kt86uvkivupxmzczdt0s.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/sbjsrqrfujwklzkhpdqv.avif",
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811050/a08u0jnhp0kvh1kmq6wp.avif",
 
     ],
@@ -402,7 +402,7 @@ const products = [
     isTshirt: false,
     description: "These adidas Samba Suede Mens Trainers sport a textured toe bumper with a stitched heel panel and a comfortable fit with padding to the ankle collar",
     price: 65,
-    Rating: 5,
+    Rating: 4,
     Size: [
     "S",
     "M",
@@ -423,7 +423,7 @@ const products = [
     isTshirt: false,
     description: "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe",
     price: 65,
-    Rating: 5,
+    Rating: 4.5,
     Size: [
     "S",
     "M",
