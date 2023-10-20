@@ -474,7 +474,10 @@ const products = [
     "2XL"
       ],
     imageLink: [
-
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720603_l_p6tesg.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720643_l_vuualr.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720620_l_uvp5yi.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720602_l_zlnhvc.avif"
     ],
   },
                 {
@@ -483,7 +486,7 @@ const products = [
     isTshirt: false,
     description: "Enhance your pool-side attire with the Nike Core Swim Shorts. Crafted in a lightweight polyester material with mesh inner briefs, these swim shorts are cut in a regularl",
     price: 23,
-    Rating: 5,
+    Rating: 4.5,
     Size: [
     "S",
     "M",
@@ -504,7 +507,7 @@ const products = [
     isTshirt: false,
     description: "The stunning adidas Sereno 14 Shorts Mens are made with ClimaLite mesh fabric that will wick sweat from the skin, helping you to keep dry and comfortable during your matches or training sessions.",
     price: 18,
-    Rating: 5,
+    Rating: 4,
     Size: [
     "S",
     "M",
@@ -513,7 +516,7 @@ const products = [
     "2XL"
       ],
     imageLink: [
-"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697789302/35216421_l_khfm3b.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790328/46303522_l_yhedcw.avif",
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790328/46303522_l_yhedcw.avif",
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790329/46303501_l_i59wxd.avif",
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790329/46303561_l_kcj2vs.avif"
