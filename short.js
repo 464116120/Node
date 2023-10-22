@@ -1,7 +1,7 @@
 const short = [
 
 {
-    id: 19,
+    id: 1,
     productName: "Short",
     isTshirt: false,
     description: "The Womens Nike 10K Dry Shorts are perfect for the hitting the gym or the trails, crafted with an elasticated waistband with an adjustable inner drawcord along with flat lock seams for a comfortable fit. These shorts also boast Dri-Fit technology",
@@ -22,7 +22,7 @@ const short = [
     ],
   },  
               {
-    id: 20,
+    id: 2,
     productName: "Short",
     isTshirt: false,
     description: "Stay cool when training in these Under Armour Fly By 2 Shorts. Cut to a loose fit and constructed from a lightweight poly for a breathable feel",
@@ -43,7 +43,7 @@ const short = [
     ],
   },
                 {
-    id: 21,
+    id: 3,
     productName: "Short",
     isTshirt: false,
     description: "Enhance your pool-side attire with the Nike Core Swim Shorts. Crafted in a lightweight polyester material with mesh inner briefs, these swim shorts are cut in a regularl",
@@ -64,7 +64,7 @@ const short = [
     ],
   },
                   {
-    id: 22,
+    id: 4,
     productName: "Short",
     isTshirt: false,
     description: "The stunning adidas Sereno 14 Shorts Mens are made with ClimaLite mesh fabric that will wick sweat from the skin, helping you to keep dry and comfortable during your matches or training sessions.",

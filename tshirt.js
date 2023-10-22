@@ -158,34 +158,8 @@ const tshirt =
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690843623/rfjvmiqxzg2xgjm6gxn7.avif"
     ],
   },
-      {
+  {
     id: 7,
-    productName: "Shoes sports",
-    isTshirt: false,
-    description:
-      "The Nike Court Vision Mens Trainers are a great addition to your off duty wardrobe, crafted with a low profile ankle collar coupled with a lace fastening and a cushioned insole for a secure and comfortable fit.",
-    price: 62,
-    Rating: 5,
-    Size: [
-    "S",
-    "M",
-    "L",
-    "XL",
-    
-      ],
-      Colors:[
-        "black"
-        ],
-    imageLink: [
-"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858370/ekpbaj7gebbizlnxrtwv.avif",
-"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858368/zo3mpyiw2ofxiyxeqvqu.avif",
-"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858365/ff65mnv6eh5q78otigwo.avif",
-"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858366/qrdbpcdnf4ulmxe5ertv.avif"
-    ],
-  },
-
-    {
-    id: 11,
     isTshirt: true,
     productName: "T-shirt",
     description:
@@ -208,7 +182,7 @@ const tshirt =
     ],
   },
     {
-    id: 12,
+    id: 8,
     productName: "T-shirt",
     isTshirt: true,
     description:
@@ -230,7 +204,7 @@ const tshirt =
     ],
   },
     {
-    id: 13,
+    id: 9,
     isTshirt: true,
     productName: "T-shirt",
     description:
@@ -252,7 +226,7 @@ const tshirt =
     ],
   },
   {
-  id: 14,
+  id: 10,
     productName: "T-shirt",
     isTshirt: true,
     description:
@@ -274,7 +248,7 @@ const tshirt =
     ],
   },
       {
-    id: 15,
+    id: 11,
     productName: "T-shirt sports",
     isTshirt: true,
     description:
@@ -297,7 +271,7 @@ const tshirt =
     ],
   },
         {
-    id: 16,
+    id: 12,
     productName: "T-shirt sports",
     isTshirt: true,
     description:

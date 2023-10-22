@@ -1,8 +1,33 @@
 
 const shoes = [
   
+      {
+    id: 1,
+    productName: "Shoes sports",
+    isTshirt: false,
+    description:
+      "The Nike Court Vision Mens Trainers are a great addition to your off duty wardrobe, crafted with a low profile ankle collar coupled with a lace fastening and a cushioned insole for a secure and comfortable fit.",
+    price: 62,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    
+      ],
+      Colors:[
+        "black"
+        ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858370/ekpbaj7gebbizlnxrtwv.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858368/zo3mpyiw2ofxiyxeqvqu.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858365/ff65mnv6eh5q78otigwo.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1690858366/qrdbpcdnf4ulmxe5ertv.avif"
+    ],
+  },
           {
-    id: 8,
+    id: 2,
     isTshirt: false,
     productName: "Shoes sports",
     description:
@@ -28,7 +53,7 @@ const shoes = [
     ],
   },
           {
-    id: 9,
+    id: 3,
     productName: "Shoes sports",
     isTshirt: false,
     description:
@@ -54,7 +79,7 @@ const shoes = [
     ],
   },
             {
-    id: 10,
+    id: 4,
     isTshirt: false,
     productName: "Shoes sports",
     description:
@@ -80,7 +105,7 @@ const shoes = [
     ],
   },
   {
-    id: 17,
+    id: 5,
     productName: "Shoes",
     isTshirt: false,
     description: "These adidas Samba Suede Mens Trainers sport a textured toe bumper with a stitched heel panel and a comfortable fit with padding to the ankle collar",
@@ -101,7 +126,7 @@ const shoes = [
     ],
   },  
             {
-    id: 18,
+    id: 6,
     productName: "Shoes",
     isTshirt: false,
     description: "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe",
