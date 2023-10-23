@@ -5,6 +5,7 @@ const products = require("./products");
 const tshirt = require("./tshirt");
 const short = require("./short");
 const shoes = require("./shoes");
+const offer = require("./offer")
 app.use(express.json());
 app.use(cors());
 
@@ -22,6 +23,9 @@ app.get("/short", (req, res) => {
 });
 app.get("/shoes", (req, res) => {
   res.send(shoes);
+});
+app.get("/offer", (req, res) => {
+  res.send(offer);
 });
 app.get("/products/:id", (req, res) => {
   const oneProduct = products.find((item) => {
@@ -50,7 +54,12 @@ app.get("/shoes/:id", (req, res) => {
   });
   res.send(oneShoes);
 });
-
+app.get("/offer/:id", (req, res) => {
+  const offeritem = offer.find((item) => {
+    return item.id == req.params.id;
+  });
+  res.send(offeritem);
+});
 
 
 const port = process.env.PORT || 5000;
