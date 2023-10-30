@@ -6,6 +6,7 @@ const tshirt = require("./tshirt");
 const short = require("./short");
 const shoes = require("./shoes");
 const offer = require("./offer")
+const stripe = require('stripe')('sk_test_51O703VHC6bvoeKYtn71skApq6dgOYh0cJ7NWVAi3iZDlxZ6qIoM3IhBJgQhVcnKpjDwF0hjH2Q847XuDw1uWABA00031tmuInX');
 app.use(express.json());
 app.use(cors());
 
@@ -61,6 +62,26 @@ app.get("/offer/:id", (req, res) => {
   res.send(offeritem);
 });
 
+app.post('/payment', (req, res) => {
+  const { token, product } = req.body;
+  const { name, price, productBy } = product;
 
+  const amount = price * 100; // السعر بالسنتات
+
+  stripe.customers.create({
+    email: token.email,
+    source: token.id,
+  })
+  .then(customer => {
+    stripe.charges.create({
+      amount: amount,
+      currency: 'usd',
+      customer: customer.id,
+      description: `Purchase of ${name} from ${productBy}`,
+    })
+  })
+  .then(charge => res.json(charge))
+  .catch(error => console.error(error));
+});
 const port = process.env.PORT || 5000;
 app.listen(port, console.log(`http://localhost:${port}`));
