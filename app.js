@@ -63,25 +63,26 @@ app.get("/offer/:id", (req, res) => {
 });
 
 app.post('/payment', (req, res) => {
-  const { token, product } = req.body;
-  const { name, price, productBy } = product;
+const { token, product } = req.body;
+const { name, price, productBy } = product;
 
-  const amount = price * 100; // السعر بالسنتات
+const amount = price * 100; // السعر بالسنتات
 
-  stripe.customers.create({
-    email: token.email,
-    source: token.id,
-  })
-  .then(customer => {
-    stripe.charges.create({
-      amount: amount,
-      currency: 'usd',
-      customer: customer.id,
-      description: `Purchase of ${name} from ${productBy}`,
-    })
-  })
-  .then(charge => res.json(charge))
-  .catch(error => console.error(error));
+stripe.customers.create({
+email: token.email,
+source: token.id,
+})
+.then(customer => {
+stripe.charges.create({
+amount: amount,
+currency: 'usd',
+customer: customer.id,
+description: `Purchase of ${name} from ${productBy}`,
+  
+})
+})
+ .then(charge => res.json(charge))
+.catch(error => console.error(error));
 });
 const port = process.env.PORT || 5000;
 app.listen(port, console.log(`http://localhost:${port}`));
