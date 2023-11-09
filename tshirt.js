@@ -160,7 +160,7 @@ const tshirt =
   },
   {
     id: 7,
-    isTshirt: true,
+    isTshirt: false,
     productName: "T-shirt",
     description:
       "Have your staples up to date, keeping your casual fits stylish and classic. This 3 Pack of basic T Shirts from DKNY have been designed in 3 different colour ways, ",
@@ -184,7 +184,7 @@ const tshirt =
     {
     id: 8,
     productName: "T-shirt",
-    isTshirt: true,
+    isTshirt: false,
     description:
       "T-shirt  basic",
     price: 15,
@@ -205,7 +205,7 @@ const tshirt =
   },
     {
     id: 9,
-    isTshirt: true,
+    isTshirt: false,
     productName: "T-shirt",
     description:
       "The Mens Under Armour ABC Camo Short Sleeve T Shirt is a great addition to your weekend wardrobe, featuring a lightweight fabrication coupled with a crew neck collar and short sleeves that offers all day comfort. ",
@@ -228,7 +228,7 @@ const tshirt =
   {
   id: 10,
     productName: "T-shirt",
-    isTshirt: true,
+    isTshirt: false,
     description:
       "adidas Essentials Embroidered Linear Logo T-Shirt maleSometimes you just have to keep things simple. No fuss. Easy. Enter this adidas t-shirt. ",
     price: 16,
