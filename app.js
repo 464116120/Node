@@ -46,7 +46,7 @@ app.get("/short/:id", (req, res) => {
   const oneShort = short.find((item) => {
     return item.id == req.params.id;
   });
-  res.send(oneShoes);
+  res.send(oneShort);
 });
   
 app.get("/shoes/:id", (req, res) => {
@@ -71,18 +71,16 @@ const amount = price * 100; // السعر بالسنتات
 stripe.customers.create({
 email: token.email,
 source: token.id,
-})
-.then(customer => {
+}).then(customer => {
 stripe.charges.create({
-amount: amount,
+ amount: amount,
 currency: 'usd',
 customer: customer.id,
 description: `Purchase of ${name} from ${productBy}`,
-  
-})
-})
- .then(charge => res.json(charge))
-.catch(error => console.error(error));
+ })
+ })
+.then(charge => res.json(charge))
+ .catch(error => console.error(error));
 });
 const port = process.env.PORT || 5000;
 app.listen(port, console.log(`http://localhost:${port}`));
