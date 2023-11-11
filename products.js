@@ -1,6 +1,7 @@
 const products = [
   {
     id: 1,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The adidas Bayern Munich Home Shirt 2023 2024 has been made for the fans. Designed to replicate what the pros will be wearing on the pitch, the shirt has been crafted with AEROREADY technology to keep you comfortable and dry. ",
@@ -13,6 +14,7 @@ const products = [
     "XL",
     "2XL"
       ],
+     
       Colors:[
         "red"
         ],
@@ -25,6 +27,7 @@ const products = [
   },
   {
     id: 2,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The adidas Real Madrid Authentic Home Shirt 2023 2024 has been expertly engineered with HEAR.RDY technology to keep you cool by providing excellent air flow as you emulate your favourite players.",
@@ -38,8 +41,11 @@ const products = [
     "2XL"
       ],
       Colors:[
-        "white"
+        "white",
+        "black"
         ],
+        
+          
     imageLink: [
       "https://res.cloudinary.com/dsqjymyvr/image/upload/v1686448968/v79lrmszmudtidgub89i.webp",
       "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831085/dhhb5pjgh818lujmtby1.avif",
@@ -50,6 +56,7 @@ const products = [
   },
   {
     id: 3,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The Nike Barcelona Home Shirt 2023 2024 has been crafted in a regular fit and styling using Nike's moisture-wicking Dri-FIT technology to keep you cool and comfortable",
@@ -63,8 +70,10 @@ const products = [
     "2XL"
       ],
       Colors:[
-        "red"
+        "red",
+        "gold"
         ],
+        
     imageLink: [
     "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831088/kdhmyxhrxzjhwzhf6i6t.avif",
     "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831085/j8jvtkrefsbimknzzgeq.avif",
@@ -75,6 +84,7 @@ const products = [
   {
     id: 4,
     productName: "T-shirt sports",
+    isTshirt: true,
     description:
       "The Nike Liverpool Home Shirt 2023 2024 has been engineered with Dri-FIT technology",
     price: 100,
@@ -87,7 +97,8 @@ const products = [
     "2XL"
       ],
       Colors:[
-        "red"
+        "red",
+        "white"
         ],
     imageLink: [
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690831628/c0uot0fqmdgdk60ij0mt.avif",
@@ -98,6 +109,7 @@ const products = [
   },
     {
     id: 5,
+    isTshirt: true,
     productName: "T-shirt sports",
     description:
       "The Nike Psg Home Shirt 2023 2024 has been engineered with Dri-FIT technology",
@@ -123,6 +135,7 @@ const products = [
     {
     id: 6,
     productName: "T-shirt sports",
+    isTshirt: true,
     description:
       "The adidas Manchester United Authentic Home Shirt 2023 2024 is exactly what the professional Red Devils will be wearing on the pitch. Featuring striped ribbed trims for comfort as you move",
     price: 110,
@@ -147,6 +160,7 @@ const products = [
       {
     id: 7,
     productName: "Shoes sports",
+    isTshirt: false,
     description:
       "The Nike Court Vision Mens Trainers are a great addition to your off duty wardrobe, crafted with a low profile ankle collar coupled with a lace fastening and a cushioned insole for a secure and comfortable fit.",
     price: 62,
@@ -171,6 +185,7 @@ const products = [
 
         {
     id: 8,
+    isTshirt: false,
     productName: "Shoes sports",
     description:
       "The Nike Court Borough Trainers are ideal for casual, everyday wear. The trainers combine a durable upper construction with chunky midsole that ensures support under the foot. The trainers feature Nike swoosh branding down the side of the trainers for a great design",
@@ -197,6 +212,7 @@ const products = [
           {
     id: 9,
     productName: "Shoes sports",
+    isTshirt: false,
     description:
       "The Nike Court Borough Trainers are ideal for casual, everyday wear. The trainers combine a durable upper construction with chunky midsole that ensures support under the foot. The trainers feature Nike swoosh branding down the side of the trainers for a great design",
     price: 42,
@@ -221,6 +237,7 @@ const products = [
   },
             {
     id: 10,
+    isTshirt: false,
     productName: "Shoes sports",
     description:
       "Style and comfort combine to make these Nike Court Borough Mid Top Junior Trainers which benefit from having a cushioned insole and padded ankle, whilst the textured sole is assisted by two pivot points to ensure great traction and mobility and the Nike Swoosh branding completes the iconic design.",
@@ -246,6 +263,7 @@ const products = [
   },
     {
     id: 11,
+    isTshirt: true,
     productName: "T-shirt",
     description:
       "Have your staples up to date, keeping your casual fits stylish and classic. This 3 Pack of basic T Shirts from DKNY have been designed in 3 different colour ways, ",
@@ -269,6 +287,7 @@ const products = [
     {
     id: 12,
     productName: "T-shirt",
+    isTshirt: true,
     description:
       "T-shirt  basic",
     price: 15,
@@ -289,6 +308,7 @@ const products = [
   },
     {
     id: 13,
+    isTshirt: true,
     productName: "T-shirt",
     description:
       "The Mens Under Armour ABC Camo Short Sleeve T Shirt is a great addition to your weekend wardrobe, featuring a lightweight fabrication coupled with a crew neck collar and short sleeves that offers all day comfort. ",
@@ -311,6 +331,7 @@ const products = [
   {
   id: 14,
     productName: "T-shirt",
+    isTshirt: true,
     description:
       "adidas Essentials Embroidered Linear Logo T-Shirt maleSometimes you just have to keep things simple. No fuss. Easy. Enter this adidas t-shirt. ",
     price: 16,
@@ -329,5 +350,178 @@ const products = [
 "https://res.cloudinary.com/dsqjymyvr/image/upload/v1690961903/wyybwk8x0xcpdtimaq18.avif"
     ],
   },
+      {
+    id: 15,
+    productName: "T-shirt sports",
+    isTshirt: true,
+    description:
+      "The adidas Arsenal Home Shirt 2023 2024 will have you looking like one of the Gunners. Crafted from polyester with sweat wicking technology to keep you cool as you cheer on from the stands, the short sleeves and crew neckline add a classic touch",
+    price: 80,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/fqhixcpxixentvpfolme.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/kt86uvkivupxmzczdt0s.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811051/sbjsrqrfujwklzkhpdqv.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811050/a08u0jnhp0kvh1kmq6wp.avif",
+
+    ],
+  },
+        {
+    id: 16,
+    productName: "T-shirt sports",
+    isTshirt: true,
+    description:
+      "been created for the superfans. Exactly what the pros will be wearing on the pitch, the shirt has been developed with Dri-FIT ADV technology which combines moisture",
+    price: 124,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/tq3pppkdrceh5y19dh1s.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/cm21hrxiikogx8zi8amo.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/f4wsyhsnv4x7walbib7q.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696811712/gbj1wrlcobq1dotzhf3g.avif",
+
+    ],
+  },  
+          {
+    id: 17,
+    productName: "Shoes",
+    isTshirt: false,
+    description: "These adidas Samba Suede Mens Trainers sport a textured toe bumper with a stitched heel panel and a comfortable fit with padding to the ankle collar",
+    price: 65,
+    Rating: 4,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812525/unjwahefxotd76zabn8y.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812526/gqhzhawwtdkbephwbqow.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812525/gw5zogq8c7rwi1tjjvoa.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812524/c97wnhuy88tnhbmb8pwn.avif",
+    ],
+  },  
+            {
+    id: 18,
+    productName: "Shoes",
+    isTshirt: false,
+    description: "The Mens adidas Pace VS Trainers offer a simple and stylish design that is perfect for any causal wardrobe",
+    price: 65,
+    Rating: 4.5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812667/hyxzj2isqft51yfyostx.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812667/l7qfbkfp8ypbmupacpjj.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812667/g6m9ss4ts9wtyrmgpife.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1696812666/oxrzc8phxaealrip5hpq.avif"
+    ],
+  },
+              {
+    id: 19,
+    productName: "Short",
+    isTshirt: false,
+    description: "The Womens Nike 10K Dry Shorts are perfect for the hitting the gym or the trails, crafted with an elasticated waistband with an adjustable inner drawcord along with flat lock seams for a comfortable fit. These shorts also boast Dri-Fit technology",
+    price: 12,
+    Rating: 4.5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788475/45701903_l_a1_ywvqgq.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788475/45701903_l_f202vk.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788475/45701902_l_yyyisc.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788476/45701902_l_a1_wmelsy.avif"
+    ],
+  },  
+              {
+    id: 20,
+    productName: "Short",
+    isTshirt: false,
+    description: "Stay cool when training in these Under Armour Fly By 2 Shorts. Cut to a loose fit and constructed from a lightweight poly for a breathable feel",
+    price: 22,
+    Rating: 5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720603_l_p6tesg.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720643_l_vuualr.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720620_l_uvp5yi.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697788949/45720602_l_zlnhvc.avif"
+    ],
+  },
+                {
+    id: 21,
+    productName: "Short",
+    isTshirt: false,
+    description: "Enhance your pool-side attire with the Nike Core Swim Shorts. Crafted in a lightweight polyester material with mesh inner briefs, these swim shorts are cut in a regularl",
+    price: 23,
+    Rating: 4.5,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697789302/35216421_l_khfm3b.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697789302/35216421_l_a1_xzo96r.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697789302/35216403_l_b9e5tb.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697789302/35216403_l_a1_atpira.avif"
+    ],
+  },
+                  {
+    id: 22,
+    productName: "Short",
+    isTshirt: false,
+    description: "The stunning adidas Sereno 14 Shorts Mens are made with ClimaLite mesh fabric that will wick sweat from the skin, helping you to keep dry and comfortable during your matches or training sessions.",
+    price: 18,
+    Rating: 4,
+    Size: [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+      ],
+    imageLink: [
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790328/46303522_l_yhedcw.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790328/46303522_l_yhedcw.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790329/46303501_l_i59wxd.avif",
+"https://res.cloudinary.com/dsqjymyvr/image/upload/v1697790329/46303561_l_kcj2vs.avif"
+    ],
+  },
+  
 ];
 module.exports = products;
